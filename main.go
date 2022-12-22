@@ -75,7 +75,7 @@ func init() {
 			DateStr: v.DateStr,
 		}
 
-		date, err := time.Parse("2006-01-02", birthday.DateStr)
+		date, err := time.Parse("01-02", birthday.DateStr)
 		if err != nil {
 			log.Fatal("one of the date format is invalid")
 		}
@@ -119,7 +119,7 @@ func botReady(s *discordgo.Session, r *discordgo.Ready) {
 	}
 
 	for {
-		now := time.Now().Format("2006-01-02")
+		now := time.Now().Format("01-02")
 		if persons, ok := birthdayList[now]; ok {
 			for _, v := range persons {
 				message := dMessage

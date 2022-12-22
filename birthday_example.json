@@ -1,15 +1,15 @@
 [
     {
         "name": "Nargacuga",
-        "date": "2001-01-01",
+        "date": "01-01",
         "message": "Leave blank for no default message!"
     },
     {
         "name": "Legiana",
-        "date": "2001-01-01"
+        "date": "01-01"
     },
     {
         "name": "Shagaru",
-        "date": "2001-01-01"
+        "date": "01-01"
     }
 ]
