@@ -1,0 +1,5 @@
+{
+    "token" : "bot token here",
+    "message" : "default custom birthday message here",
+    "channel_id" : "channel id to send the birthday to"
+}
