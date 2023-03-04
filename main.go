@@ -126,7 +126,7 @@ func botReady(s *discordgo.Session, r *discordgo.Ready) {
 				if v.Message != "" {
 					message = v.Message
 				}
-				s.ChannelMessageSend(config.BotChannelId, message)
+				s.ChannelMessageSend(config.ChannelId, message)
 			}
 		}
 		time.Sleep(time.Hour * 24)
